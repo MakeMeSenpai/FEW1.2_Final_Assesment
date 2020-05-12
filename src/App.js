@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './Header';
-import data from './metal.json'
+import Space from './Space.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Space />
     </div>
   );
 }
